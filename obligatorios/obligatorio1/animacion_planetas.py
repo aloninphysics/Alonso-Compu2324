@@ -47,7 +47,7 @@ import numpy as np
 
 # Parámetros
 # ========================================
-file_in = "C:/Users/Alonso/Desktop/FISICACOMPUTACIONAL/Git/RepositorioGit/Alonso-Compu2324/obligatorios/obligatorio1/Salida.txt" # Nombre del fichero de datos
+file_in = "C:/Users/Alonso/Desktop/FISICACOMPUTACIONAL/Git/RepositorioGit/Alonso-Compu2324/obligatorios/obligatorio1/geocentricas.txt" # Nombre del fichero de datos
 file_out = "planetas" # Nombre del fichero de salida (sin extensión)
 
 # Límites de los ejes X e Y
@@ -67,7 +67,7 @@ dpi = 150 # Calidad del vídeo de salida (dots per inch)
 # Puede ser un número (el radio de todos los planetas) o una lista con
 # el radio de cada uno
 #planet_radius = 1 
-planet_radius = [0.7, 0.2, 0.4, 0.5, 0.3, 0.7, 0.6, 0.5, 0.5]
+planet_radius = [0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2, 0.2]
 
 
 # Lectura del fichero de datos
