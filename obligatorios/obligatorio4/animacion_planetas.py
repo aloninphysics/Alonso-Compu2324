@@ -51,12 +51,12 @@ file_in = "C:/Users/Alonso/Desktop/FISICACOMPUTACIONAL/Git/RepositorioGit/Alonso
 file_out = "Cohete" # Nombre del fichero de salida (sin extensión)
 
 # Límites de los ejes X e Y
-x_min = -3
-x_max = 3
-y_min = -3
+x_min = -1
+x_max = 2
+y_min = -1
 y_max = 3
 
-interval = 0.01 # Tiempo entre fotogramas en milisegundos
+interval = 0.1 # Tiempo entre fotogramas en milisegundos
 show_trail = True # Muestra la "estela" del planeta
 trail_width = 1 # Ancho de la este+la
 save_to_file = False # False: muestra la animación por pantalla,
@@ -67,7 +67,7 @@ dpi = 150 # Calidad del vídeo de  (dots per inch)
 # Puede ser un número (el radio de todos los planetas) o una lista con
 # el radio de cada uno
 #planet_radius = 1 
-planet_radius = [0.01, 0.01]
+planet_radius = [0.01, 0.03]
 
 
 # Lectura del fichero de datos

@@ -2,12 +2,12 @@
 #include <math.h>
 #include <stdlib.h>
 #include <time.h>
-#define N 400
+#define N 150
 
 int main()
 {   
     int i, j, n, m, l, t, k, random;
-    double aleatorio, T=2.2, p, VariacionEnergia, Exponencial;
+    double aleatorio, T=0.0000001, p, VariacionEnergia, Exponencial;
     double s[N][N];
 
     FILE *fescribir;

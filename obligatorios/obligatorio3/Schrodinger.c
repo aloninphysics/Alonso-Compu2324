@@ -7,7 +7,7 @@
 
 int main()
 {  
-double nciclos, Norma, tmax=1500;
+double nciclos, Norma, tmax=500;
 int n, j, N=250;
 double x, t, h, stilde, s, kotilde, landa, Vtilde[N], prob;
 
